@@ -1,0 +1,66 @@
+.container{
+    width: 30%;
+
+}
+.display {
+    background-color: lavender;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    padding-right: 5px;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.buttons{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    border-radius: 5px;
+    border: 1px solid #fff;
+    flex: 1 25%;
+    padding: 15px;
+    font-size: 26px;
+}
+
+.btn-number {
+    background-color:grey;
+}
+
+.btn-operator {
+    background-color: sandybrown;
+}
+
+.btn-equals {
+    background-color: lightgreen;
+}
+
+.btn-clear {
+    background-color: indianred;
+}
+
+
+.btn-number:hover {
+    background-color: darkgray;
+}
+
+.btn-operator:hover {
+    background-color: darkorange;
+}
+
+.btn-equals:hover {
+    background-color: forestgreen;
+}
+
+.btn-clear:hover {
+    background-color: red;
+}
+
+
+.btn:active
+{
+    border: 1px solid #000;
+}
+
